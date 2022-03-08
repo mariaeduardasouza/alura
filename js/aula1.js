@@ -12,4 +12,4 @@ function calcular(){
 
     media.innerHTML = mediafinal;
 
-}
+} //falta terminar
