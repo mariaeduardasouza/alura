@@ -1,15 +1,13 @@
 function calcular(){
-    const nota1 = document.getElementById("nota1");
-    const primeiroValor = nota1.value;
+    const nota1 =parseInt(document.getElementById("nota1").value);
+    const nota2 = parseInt(document.getElementById("nota2").value);
+    const nota3 = parseInt(document.getElementById("nota3").value);
+    const nota4 = parseInt(document.getElementById("nota4").value);
 
-    const nota2 = document.getElementById("nota2");
-    const segundoValor = nota2.value;
-
-    const calcular = (primeiroValor + segundoValor) /2 ;
+    const calcular = (nota1 + nota2 + nota3 + nota4) /4 ;
 
     const media = document.getElementById("mediaFinal");
-    const mediafinal = "sua media foi:" + calcular;
 
-    media.innerHTML = mediafinal;
+    media.innerHTML = "Sua media foi: " + calcular;
 
-} //falta terminar
+} 
