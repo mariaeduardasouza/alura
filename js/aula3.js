@@ -1,5 +1,3 @@
-
-
 function Chutar(){
     const numeroSecreto = parseInt(Math.random() * 11);
     const resultado = document.getElementById("resultado")
